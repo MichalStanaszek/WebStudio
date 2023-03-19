@@ -1,0 +1,22 @@
+.secondary-header {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.14rem;
+  color: #212121;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.attributes {
+  margin: 94px 30px 94px 0px;
+
+  &--icon {
+    background-color: #f5f4fa;
+    padding: 25px 100px;
+    margin-bottom: 30px;
+  }
+
+  &--text {
+    margin: 0;
+  }
+}

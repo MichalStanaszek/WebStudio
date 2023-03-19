@@ -1,0 +1,28 @@
+@import "./components/general-blocks";
+@import "./utils/vars";
+@import "./components/page-header";
+@import "./components/logo";
+@import "./components/banner";
+@import "./components/attributes";
+@import "./components/what-we-do";
+@import "./components/team";
+@import "./components/customers";
+@import "./components/footer";
+@import "./components/modal-window";
+@import "./components/fillters";
+@import "./components/grid";
+
+body {
+  color: $brand-text-color;
+  font-family: $font-primary;
+  font-size: 14px;
+  line-height: 24px;
+  width: 1600px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
