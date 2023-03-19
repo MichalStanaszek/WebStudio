@@ -1,23 +1,86 @@
 .page-header {
-  min-width: 320px;
-  background-color: yellow;
+  display: flex;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ececec;
+  padding: 20px 0;
 }
 
-.page-header .adaptive {
-  border: 2px solid red;
-  text-align: center;
-}
+.page-navigation {
+  position: relative;
+  display: flex;
+  list-style-type: none;
+  line-height: 1.14rem;
+  padding-left: 0px;
 
-@media screen and (min-width: 768px) {
-  .page-header {
-    background-color: orange;
-    max-width: 768px;
+  &__active::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 53px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: $brand-color;
+    margin-top: 31px;
+    margin-bottom: 0;
+  }
+
+  &--transform:hover {
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transform: scale(1.1);
   }
 }
 
-@media screen and (min-width: 1200px) {
+.link {
+  font-weight: 500;
+  color: #212121;
+  text-decoration: none;
+  margin: 32px 46px 0 0;
+}
+
+.link:hover,
+.link:focus,
+.page-contact__hyperlink:hover,
+.page-contact__hyperlink:focus {
+  color: #{$brand-color};
+  --color2: #{$brand-color};
+  --color4: #{$brand-color};
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transform: scale(1.1);
+}
+
+.page-contact {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+  line-height: 1.14rem;
+  padding-left: 345px;
+
+  &__hyperlink {
+    display: flex;
+    align-items: center;
+    color: $brand-text-color;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  &__icon {
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .page-header {
-    background-color: green;
-    max-width: 1200px;
+    min-width: 320px;
+    background-color: yellow;
+  }
+  .page-navigation,
+  .page-contact {
+    display: none;
   }
 }
