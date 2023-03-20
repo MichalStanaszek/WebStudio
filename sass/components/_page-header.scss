@@ -5,6 +5,11 @@
   border-width: 1px;
   border-color: #ececec;
   padding: 20px 0;
+
+  &__flex {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .page-navigation {

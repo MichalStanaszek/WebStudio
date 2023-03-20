@@ -4,10 +4,10 @@
   padding: 0 15px;
 }
 
-.flex {
-  display: flex;
-  align-items: center;
-}
+// .flex {
+//   display: flex;
+//   align-items: center;
+// }
 
 .flex2 {
   display: flex;
@@ -47,7 +47,7 @@
 }
 
 @media (max-width: 768px) {
-  .flex {
+  .page-header__flex {
     display: flex;
     justify-content: space-between;
   }

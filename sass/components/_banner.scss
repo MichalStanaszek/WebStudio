@@ -53,3 +53,9 @@
       url(../images/Main-page/office@2x.jpg);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .banner {
+    margin-bottom: 60px;
+  }
+}

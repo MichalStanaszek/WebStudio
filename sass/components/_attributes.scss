@@ -19,4 +19,26 @@
   &--text {
     margin: 0;
   }
+
+  &__display {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .attributes {
+    margin: 30px auto;
+  }
+  .attributes__display {
+    display: block;
+    max-width: 100vw;
+  }
+  .attributes--icon {
+    padding: 25px 46%;
+  }
+  .secondary-header {
+    text-align: center;
+    padding-bottom: 10px;
+  }
 }
