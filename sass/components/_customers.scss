@@ -10,7 +10,7 @@
 
 .customers__logo {
   max-width: 170px;
-  max-height: 90px;
+  max-height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   margin-bottom: 94px;
@@ -27,5 +27,18 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transform: scale(1.25);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .customers {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  .customers__logo {
+    max-width: 210px;
+    flex-basis: calc((100% - 30px) / 2);
+    margin: 0;
   }
 }
