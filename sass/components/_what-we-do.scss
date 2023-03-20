@@ -28,3 +28,9 @@
 .prod-cat__label3 {
   padding: 27px 98px;
 }
+
+@media screen and (max-width: 768px) {
+  .what-we-do {
+    display: none;
+  }
+}
