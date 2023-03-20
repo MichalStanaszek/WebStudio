@@ -2,4 +2,13 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
+  &:hover {
+    fill: $brand-color;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile__button {
+    display: none;
+  }
 }
