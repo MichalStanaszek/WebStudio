@@ -79,12 +79,19 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .page-header {
-    min-width: 320px;
-  }
+@media screen and (max-width: 480px) {
+  // .page-header {
+  //   min-width: 320px;
+  // }
   .page-navigation,
   .page-contact {
     display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-header__flex {
+    display: flex;
+    justify-content: space-between;
   }
 }
