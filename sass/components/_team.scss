@@ -77,9 +77,17 @@
   }
   .team__member {
     margin: 0;
-    padding: 0;
+    padding-bottom: 24px;
+    margin-bottom: 30px;
   }
   .team--picture {
     width: 100vw;
+  }
+  .social {
+    justify-content: center;
+    // margin: 24px;
+  }
+  .social--transform {
+    margin: 0 5px;
   }
 }
