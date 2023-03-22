@@ -8,7 +8,8 @@
 }
 
 .attributes {
-  margin: 94px 30px 94px 0px;
+  margin: 94px 0px;
+  // max-width: 270px;
 
   &--icon {
     background-color: #f5f4fa;
@@ -23,6 +24,8 @@
   &__display {
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 30px;
   }
 }
 
@@ -58,5 +61,12 @@
   }
   .attributes--post {
     margin: 0;
+  }
+}
+
+// DESKTOP
+@media screen and (min-width: 769px) {
+  .attributes {
+    max-width: 270px;
   }
 }
