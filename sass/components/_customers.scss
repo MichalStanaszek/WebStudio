@@ -1,6 +1,7 @@
 .customers {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
 
   &__header {
     @extend .section-header;
