@@ -1,6 +1,7 @@
 .prod-cat {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
 
   &__thumb {
     position: relative;
