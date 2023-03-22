@@ -105,6 +105,12 @@
     margin: 0;
     width: 100%;
   }
+  .team__member img {
+    width: 100%;
+  }
+  .team li {
+    width: calc(50% - 30px);
+  }
   .wrapper2 {
     margin: 0 auto;
     padding: 60px 0;
