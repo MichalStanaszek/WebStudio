@@ -6,15 +6,16 @@
   text-transform: uppercase;
   padding-bottom: 10px;
 }
-
 .attributes {
   margin: 94px 0px;
-  // max-width: 270px;
 
   &--icon {
     background-color: #f5f4fa;
-    padding: 25px 100px;
     margin-bottom: 30px;
+    padding: 25px;
+    max-width: 270px;
+    max-height: 120px;
+    text-align: center;
   }
 
   &--text {

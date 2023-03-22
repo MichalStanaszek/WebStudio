@@ -147,4 +147,49 @@
     margin: 60px 0;
     padding: 0;
   }
+  .newsletter__label {
+    padding-bottom: 20px;
+  }
+  .newsletter {
+    padding-bottom: 60px;
+  }
+  .newsletter__btn {
+    margin: 0 auto;
+  }
+}
+
+// DESKTOP
+@media screen and (min-width: 769px) {
+  .summary--flex {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+  }
+  .summary__tablet {
+    display: flex;
+    align-items: baseline;
+    gap: 70px;
+  }
+  .summary__address {
+    display: flex;
+    align-items: flex-start;
+  }
+  .join-us-header {
+    text-align: start;
+  }
+
+  .newsletter__label {
+    display: flex;
+    position: relative;
+    margin-right: 215px;
+  }
+  .newsletter__input {
+    max-width: 358px;
+  }
+  .newsletter__btn {
+    position: absolute;
+    content: "";
+    right: -48%;
+    top: 27%;
+  }
 }
