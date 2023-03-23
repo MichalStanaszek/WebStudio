@@ -30,6 +30,7 @@
   }
 }
 
+// MOBILE
 @media screen and (max-width: 480px) {
   .attributes {
     margin: 30px auto;
@@ -39,7 +40,9 @@
     max-width: 100vw;
   }
   .attributes--icon {
-    padding: 25px 46%;
+    width: 100vw;
+    padding-left: 44%;
+    padding-right: 56%;
   }
   .secondary-header {
     text-align: center;
@@ -47,6 +50,7 @@
   }
 }
 
+// TABLET
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .attributes__display {
     display: flex;

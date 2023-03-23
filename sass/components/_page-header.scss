@@ -88,11 +88,9 @@
   .page-contact {
     display: none;
   }
-}
-
-@media (max-width: 480px) {
   .page-header__flex {
-    display: flex;
+    display: block;
+    padding-left: 15px;
   }
 }
 
@@ -103,6 +101,12 @@
   }
   .page-header__flex {
     max-width: 768px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .page-navigation {
+    padding-left: 20px;
   }
   .page-contact {
     display: block;
