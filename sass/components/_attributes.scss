@@ -34,6 +34,7 @@
 @media screen and (max-width: 480px) {
   .attributes {
     margin: 30px auto;
+    padding: 0 15px;
   }
   .attributes__display {
     display: block;
@@ -41,8 +42,8 @@
   }
   .attributes--icon {
     width: 100vw;
-    padding-left: 44%;
-    padding-right: 56%;
+    padding-left: 42%;
+    padding-right: 58%;
   }
   .secondary-header {
     text-align: center;
@@ -58,10 +59,17 @@
     gap: 30px;
     justify-content: center;
     margin: 60px 0 45px;
+    padding: 0 15px;
+  }
+
+  .attributes--icon {
+    width: 100vw;
+    padding-left: 42%;
+    padding-right: 58%;
   }
 
   .attributes {
-    flex-basis: calc((100% - 30px) / 3);
+    flex-basis: calc((100% - 30px) / 2);
     margin: 0;
   }
   .attributes--post {
