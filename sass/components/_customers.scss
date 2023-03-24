@@ -37,6 +37,7 @@
     justify-content: center;
     gap: 30px;
     margin-bottom: 60px;
+    padding: 0 15px;
   }
 
   .customers__logo {
@@ -50,5 +51,8 @@
 @media screen and (min-width: 769px) {
   .customers__header {
     margin-top: 94px;
+  }
+  .customers {
+    padding: 0 15px;
   }
 }
