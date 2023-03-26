@@ -110,7 +110,7 @@
   font-weight: 700;
   font-size: 1.14rem;
   padding: 10px 76px;
-  margin: 30px 164px;
+  // margin: 30px 164px;
   color: #ffffff;
   background: $brand-color;
   border: none;
@@ -141,4 +141,27 @@
     center / contain no-repeat;
   background-color: $brand-color;
   border: none;
+}
+
+// MOBILE
+@media screen and (max-width: 480px) {
+  .modal {
+    position: absolute;
+    top: 93px;
+    max-width: 100%;
+    margin: 0 15px;
+    left: 0;
+  }
+
+  .modal-btn {
+    margin-bottom: 30px;
+  }
+
+  .modal__statute {
+    margin-bottom: 30px;
+  }
+}
+
+// TABLET
+@media screen and (min-width: 481px) and (max-width: 768px) {
 }
