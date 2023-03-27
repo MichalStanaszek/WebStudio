@@ -103,14 +103,17 @@
 }
 
 .modal__statute {
-  margin: 20px 54px 0px 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .modal-btn {
   font-weight: 700;
   font-size: 1.14rem;
   padding: 10px 76px;
-  // margin: 30px 164px;
+  margin: 30px 0;
+  max-width: 200px;
   color: #ffffff;
   background: $brand-color;
   border: none;
@@ -118,6 +121,10 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /* Custom checkbox */
+
+.modal__checkbox {
+  margin: 20px 40px 0;
+}
 
 .modal__checkbox input {
   position: relative;
@@ -148,20 +155,8 @@
   .modal {
     position: absolute;
     top: 93px;
-    max-width: 100%;
+    width: auto;
+    height: auto;
     margin: 0 15px;
-    left: 0;
   }
-
-  .modal-btn {
-    margin-bottom: 30px;
-  }
-
-  .modal__statute {
-    margin-bottom: 30px;
-  }
-}
-
-// TABLET
-@media screen and (min-width: 481px) and (max-width: 768px) {
 }
