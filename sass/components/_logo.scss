@@ -4,7 +4,7 @@
   font-size: 1.85rem;
   line-height: 1.29rem;
   text-decoration: none;
-  padding-right: 93px;
+  // padding-right: 93px;
 
   &--color1 {
     color: $brand-color;
@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .logo {
     padding: 0;
   }
