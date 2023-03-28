@@ -1,11 +1,8 @@
 .banner {
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(/images/main-page/office-1600w.jpg);
-  max-width: 1600px;
-  background-color: $brand-bg-color;
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(/images/main-page/office-480w.jpg);
+  max-width: 480px;
+
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -43,12 +40,10 @@
   }
 }
 
-@media screen and (max-width: 480px) and (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
+@media screen and (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .banner {
-    max-width: 767px;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
@@ -56,12 +51,10 @@
       url(/images/main-page/office-480w@2x.jpg);
   }
 }
-@media screen and (min-width: 481px) and (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
+@media screen and (max-width: 768px) and (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .banner {
-    max-width: 1200px;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
@@ -70,8 +63,7 @@
   }
 }
 
-@media screen and (min-width: 769px) and (min-device-pixel-ratio: 2),
-  (-webkit-min-device-pixel-ratio: 2),
+@media screen and (max-width: 1200px) and (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .banner {
