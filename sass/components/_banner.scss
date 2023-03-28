@@ -1,8 +1,11 @@
 .banner {
-  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
     url(/images/main-page/office-480w.jpg);
   max-width: 480px;
-
+  background-color: $brand-bg-color;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -40,7 +43,7 @@
   }
 }
 
-@media screen and (min-device-pixel-ratio: 2),
+@media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .banner {
@@ -51,7 +54,16 @@
       url(/images/main-page/office-480w@2x.jpg);
   }
 }
-@media screen and (max-width: 768px) and (min-device-pixel-ratio: 2),
+@media screen and (min-width: 768px) {
+  .banner {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      )
+      url(/images/main-page/office-768w.jpg);
+  }
+}
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .banner {
@@ -63,7 +75,7 @@
   }
 }
 
-@media screen and (max-width: 1200px) and (min-device-pixel-ratio: 2),
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .banner {
