@@ -1,0 +1,11 @@
+.dead-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: red;
+}
+
+.dead-end__headline {
+  margin: 30px 15px;
+}
