@@ -22,8 +22,8 @@
   </head>
   <body>
     <header class="page-header">
-      <div class="container flex">
-        <div>
+      <div class="container page-header__flex">
+        <div class="page-header__flex">
           <a class="logo" href="./index.html"
             ><span class="logo--color1">Web</span
             ><span class="logo--color2">Studio</span></a
@@ -69,7 +69,69 @@
             </li>
           </ul>
         </div>
+        <button
+          class="mobile__button js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          type="button"
+        >
+          <svg width="44px" height="44px">
+            <use href="./images/Icons/icons.svg#icon-hamburger"></use>
+          </svg>
+        </button>
+        <div class="menu-container js-menu-container" id="mobile-menu">
+          <button class="mobile__button js-close-menu">&#10006;</button>
+          <ul class="mobile-menu">
+            <li class="mobile-menu--list">
+              <a href="./index.html" class="mobile__link">Agencja</a>
+            </li>
+            <li class="mobile-menu--list">
+              <a href="./portfolio.html" class="mobile__link">Portfolio</a>
+            </li>
+            <li class="mobile-menu--list">
+              <a href="kontakt" class="mobile__link">Kontakt</a>
+            </li>
+          </ul>
+          <div>
+            <ul class="mobile-contact">
+              <li class="mobile-contact--list">
+                <a class="mobile-contact--details" href="tel:+48111111111"
+                  >+48 111 111 111</a
+                >
+              </li>
+              <li class="mobile-contact--list">
+                <a
+                  class="mobile-contact--details"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="mobile-social">
+              <li class="mobile-social--decoration">
+                <a href="Instagram"></a>
+                Instagram
+              </li>
+              <li class="mobile-social--decoration">
+                <a href="Twitter"></a> Twitter
+              </li>
+              <li class="mobile-social--decoration">
+                <a href="Facebook"></a> Facebook
+              </li>
+              <li class="mobile-social--decoration">
+                <a href="LinkedIn"></a> LinkedIn
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
+      <script
+        defer
+        src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous"
+      ></script>
+      <script defer src="js/mobile-menu.js"></script>
     </header>
     <main>
       <div class="filters container">
