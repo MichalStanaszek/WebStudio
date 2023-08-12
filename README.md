@@ -1,1 +1,1 @@
-https://michalstanaszek.github.io/goit-markup-hw-08/
+Hi! This is my first website ever. It's build mostly with HTML, CSS and a little JS for modal windows. This is simple, static website with contact data, form and product info. Page is adaptive for mobile, tablet and desktop resolution.
